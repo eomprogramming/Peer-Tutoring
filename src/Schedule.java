@@ -41,4 +41,6 @@ public class Schedule {
 	{
 		return "I hope this method isn't important.";
 	}
+	
+	//I'm adding this comment so I can change the commit message :)
 }
