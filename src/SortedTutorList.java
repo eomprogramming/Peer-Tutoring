@@ -5,6 +5,7 @@ public class SortedTutorList
 {
   final static int NUM_COURSES = 100;
 	ArrayList<Tutor> allTutors = new ArrayList<Tutor>();
+	@SuppressWarnings("unchecked")
 	ArrayList<Tutor> sortedList[][][] = new ArrayList[NUM_COURSES][5][2];
 	
 	public void addTutor(Tutor t)
